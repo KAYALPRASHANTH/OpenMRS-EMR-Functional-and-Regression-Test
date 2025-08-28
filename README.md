@@ -14,7 +14,7 @@ This suite simulates real-world user journeys within OpenMRS:
 - Verify successful login  
 
 ### 🔹 Home Module
-- Set the user’s **location**  
+- Set the **location**  
 - Navigate through the main dashboard  
 - Create a **new patient** record  
 
@@ -22,8 +22,7 @@ This suite simulates real-world user journeys within OpenMRS:
 - Access Laboratory section  
 - Validate laboratory order workflows  
 
-### 🔹 Patient List Module
-- Search for patients  
+### 🔹 Patient List Module  
 - View and validate patient details  
 - Confirm patient records exist  
 
@@ -46,10 +45,5 @@ This suite simulates real-world user journeys within OpenMRS:
 - **Playwright HTML Report** – Interactive test report  
 - **Screenshots / Videos / Traces** – Captured for failed tests  
 
----
 
-## 🚀 How to Run
-1. Install dependencies:
-   ```bash
-   npm install
 
