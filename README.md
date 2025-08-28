@@ -1,49 +1,33 @@
-# OpenMRS EMR Test Automation
+# OpenMRS EMR
 
-Automated **functional and regression test suite** for **OpenMRS EMR** using [Playwright](https://playwright.dev/) with **JavaScript**.  
-The framework is built with the **Page Object Model (POM)** design pattern for scalability and maintainability.  
+Automation testing using **Playwright** with **JavaScript**, providing a functional and regression testing suite for the **OpenMRS Electronic Medical Record (EMR)** system.  
 
----
+## 🚀 Features
 
-## ✅ Test Scenario Overview
-This suite simulates real-world user journeys within OpenMRS:
+- Launches OpenMRS EMR application  
+- Logs in with valid credentials  
+- Sets user location  
+- Creates a new patient record  
+- Navigates to Laboratory module  
+- Searches and views patient details  
+- Runs functional & regression test suites  
 
-### 🔹 Login Module
-- Launch the OpenMRS application  
-- Enter valid credentials  
-- Verify successful login  
+## 🧰 Tech Stack
 
-### 🔹 Home Module
-- Set the **location**  
-- Navigate through the main dashboard  
-- Create a **new patient** record  
+- JavaScript (Node.js)  
+- Playwright  
+- Page Object Model (POM)  
+- Visual Studio Code  
+- Playwright Test Runner  
 
-### 🔹 Laboratory Module
-- Access Laboratory section  
-- Validate laboratory order workflows  
+## 🧪 Test Scenario
 
-### 🔹 Patient List Module  
-- View and validate patient details  
-- Confirm patient records exist  
-
-### 🔹 Regression Suite
-- Execute combined scenarios across modules  
-- Validate system stability after changes  
-
----
-
-## 🔧 Tech Stack
-- **JavaScript (Node.js)** – Test scripting language  
-- **Playwright** – Browser automation & testing framework  
-- **Page Object Model (POM)** – Test design pattern  
-- **Visual Studio Code** – IDE for development  
-- **Playwright Test Runner** – For execution & reporting  
-
----
-
-## 📊 Reports & Artifacts
-- **Playwright HTML Report** – Interactive test report  
-- **Screenshots / Videos / Traces** – Captured for failed tests  
-
-
+- Open OpenMRS EMR  
+- Login with test credentials  
+- Set location on Home screen  
+- Create a new patient  
+- Access Laboratory module and validate workflows  
+- Search patient in Patient List  
+- View patient details and confirm records  
+- Run regression suite across modules  
 
