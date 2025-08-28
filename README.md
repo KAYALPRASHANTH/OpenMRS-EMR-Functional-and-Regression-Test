@@ -1,4 +1,4 @@
-# OpenMRS EMR
+#OpenMRS 
 
 Automation testing using **Playwright** with **JavaScript**, providing a functional and regression testing suite for the **OpenMRS Electronic Medical Record (EMR)** system.  
 
